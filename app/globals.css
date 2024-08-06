@@ -17,13 +17,9 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: white;
+  background-color: rgb(17 24 39);
+
 }
 
 @layer utilities {
@@ -31,3 +27,18 @@ body {
     text-wrap: balance;
   }
 }
+.image-class {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 0.25rem;
+  margin: 1rem;
+  transition: transform 0.2s;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.image-class:hover {
+  transform: scale(1.05);
+}
+

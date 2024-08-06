@@ -1,0 +1,29 @@
+[
+    {
+        "title":"Wisely",
+        "description":"wisely is a budget managment app to deal with incomes and expanses and with a good managments technic to make everything orginised." , 
+        "category":["flutter" , "local database" , "clean architecture" , "riverpod"] , 
+        "link" : "https://github.com/Rafik-Bendjema/Wisely"
+    } , 
+    {
+        "title":"taskmates",
+        "description":"task mates is an online todo list app where you can make tasks with you friends , teamates or family , or just share your improvement during the day to spread motivation.", 
+        "category":["flutter" , "firebase" , "clean architecture" , "riverpod"] , 
+        "link" : "https://github.com/Rafik-Bendjema/TaskMates" 
+    } , 
+    {
+        "title":"heart diseas detection",
+        "description":"an Ai module that predict heart diseas and heart attack using ultra sound images" , 
+        "category":["python" , "computer vision" , "keras" ] , 
+        "link" : "https://github.com/Rafik-Bendjema/heart_disease"
+    } , 
+    {
+        "title":"marriage with sarah",
+        "description":"sarah is the best girl ever i can't find another female that has the same what sarah has " , 
+        "category":["love" , "marriage" ] , 
+        "link" : "https://github.com/Rafik-Bendjema/heart_disease"
+    }
+    
+    
+
+]
