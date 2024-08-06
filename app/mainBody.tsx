@@ -11,7 +11,7 @@ import { motion } from 'framer-motion';
 
 const downloadCV = () => {
     const atag = document.createElement("a");
-    atag.href = "/resources/cv.pdf"; // Adjusted path
+    atag.href = "/cv.pdf"; // Adjusted path
     atag.setAttribute("download", "cv.pdf");
     document.body.appendChild(atag);
     atag.click();
@@ -41,13 +41,18 @@ export default function MainBody() {
                 {/* Overlay Text */}
                 <div className="absolute inset-0 flex items-center justify-center z-20 flex-col">
                     <div className="grid grid-cols-2 grid-rows-2 gap-4 md:gap-9">
-                        <Image
+                       
+                       <a href="https://wa.me/213542331709">
+                       <Image
                             src={whatsapp}
                             alt="whatsapp"
                             width={40}
                             height={40}
                             className="hover:scale-125"
                         />
+                        </a>
+                        
+                        <a href="https://www.linkedin.com/in/bendjema-ahmed-rafik-353bb4249/">
                         <Image
                             src={linkedin}
                             alt="linkedin"
@@ -55,6 +60,7 @@ export default function MainBody() {
                             height={40}
                             className="hover:scale-125"
                         />
+                            </a>
                         <a href="https://www.instagram.com/rafik.b.a">
                             <Image
                                 src={insta}
@@ -64,6 +70,8 @@ export default function MainBody() {
                                 className="hover:scale-125"
                             />
                         </a>
+                        <a href="https://github.com/Rafik-Bendjema">
+
                         <Image
                             src={github}
                             alt="github"
@@ -71,6 +79,8 @@ export default function MainBody() {
                             height={40}
                             className="hover:scale-125"
                         />
+                        </a>
+                        
                     </div>
                     <div onClick={downloadCV} className="mt-4 p-2 bg-white rounded-xl text-gray-700 hover:scale-110 hover:cursor-pointer">download CV</div>
                 </div>

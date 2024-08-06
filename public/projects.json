@@ -18,11 +18,17 @@
         "link" : "https://github.com/Rafik-Bendjema/heart_disease"
     } , 
     {
-        "title":"marriage with sarah",
-        "description":"sarah is the best girl ever i can't find another female that has the same what sarah has " , 
-        "category":["love" , "marriage" ] , 
-        "link" : "https://github.com/Rafik-Bendjema/heart_disease"
-    }
+        "title":"2048 game",
+        "description":"2048 is a puzzle game where you slide tiles on a 4x4 grid to combine them and reach the number 2048." , 
+        "category":["flutter" , "game"  ] , 
+        "link" : "https://github.com/Rafik-Bendjema/2048"
+    } , 
+    {
+        "title":"kafil",
+        "description":"this is an app requested from the associaltion kail el yatim , for helping the administration" , 
+        "category":["flutter" , "riverpod"  ] , 
+        "link" : "https://github.com/Rafik-Bendjema/kafil2"
+    } 
     
     
 

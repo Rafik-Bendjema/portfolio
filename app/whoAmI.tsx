@@ -17,7 +17,7 @@ import { motion } from 'framer-motion';
 
 export default function WhoAmI() {
   return (
-    <div className="w-full h-screen flex flex-col md:flex-row">
+    <div className="w-full h-auto md:h-screen flex flex-col md:flex-row">
       <div className="h-full w-full md:w-6/12 flex justify-center items-center flex-col p-4">
         <div className="flex flex-row items-center justify-center">
           <h2 className="text-4xl md:text-6xl mr-3">who is</h2>
@@ -25,11 +25,11 @@ export default function WhoAmI() {
         </div>
         <p className="pt-6 text-2xl md:text-3xl text-center md:text-left">I am a mobile app developer and visual computing student</p>
         <h2 className="pt-7 text-4xl md:text-6xl">where ?</h2>
-        <div className="relative w-40 h-40 md:w-64 md:h-64">
+        <div className="relative w-40 h-40 md:w-64 md:h-64 mb-8">
           <Image
             src={worldMap}
             alt="world map"
-            layout="fill"
+            layout="cover"
             objectFit="cover"
             className="pt-8"
           />
@@ -37,12 +37,12 @@ export default function WhoAmI() {
             initial={{ scale: 4 }}
             whileInView={{ scale: 1 }}
             transition={{ duration: 2 }}
-            className="absolute top-1/3 left-24 transform -translate-x-1/2 -translate-y-1/2 w-3 h-3 md:w-4 md:h-4 bg-red-500 rounded-full border-2 border-white"
+            className="absolute top-[38%] left-[35%] transform -translate-x-1/2 -translate-y-1/2 w-3 h-3 md:w-4 md:h-4 bg-red-500 rounded-full border-2 border-white"
           ></motion.div>
         </div>
         <h2 className='text-4xl md:text-6xl pt-5'>what i use ?</h2>
         <div className='pt-5 grid grid-cols-3 gap-2 md:gap-4'>
-          <Image className="image-class"src={flutter} width={50} height={50} alt="flutter" />
+          <Image className="image-class" src={flutter} width={50} height={50} alt="flutter" />
           <Image className="image-class" src={python} width={50} height={50} alt="python" />
           <Image className="image-class" src={firebase} width={50} height={50} alt="firebase" />
           <Image className="image-class" src={java} width={50} height={50} alt="java" />
@@ -74,7 +74,7 @@ export default function WhoAmI() {
                 className="group-hover:scale-110 transition-transform duration-300 rounded-lg"
               />
             </div>
-            <div className="group absolute w-48 h-48 md:w-64 md:h-64 left-2/3 transform  hover:z-30 ">
+            <div className="group absolute w-48 h-48 md:w-64 md:h-64 left-2/3 transform hover:z-30 ">
               <Image
                 src={img2}
                 alt="Image 2"
