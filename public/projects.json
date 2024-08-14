@@ -1,5 +1,11 @@
 [
     {
+        "title":"Highlight_It",
+        "description":"app that uses Ai to detect a text withen an image to help save quotes from multiple book in an orinised way , using flutter and sql , and riverpod as state managment" , 
+        "category":["flutter" , "sqlite" , "machine learning" , "riverpod"] , 
+        "link" : "https://github.com/Rafik-Bendjema/highlight_it"
+    } , 
+    {
         "title":"Wisely",
         "description":"wisely is a budget managment app to deal with incomes and expanses and with a good managments technic to make everything orginised." , 
         "category":["flutter" , "local database" , "clean architecture" , "riverpod"] , 
