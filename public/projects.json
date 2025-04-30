@@ -1,5 +1,15 @@
 [
     {
+    "title" : "Student Project Incubation Platform" , 
+    "description":"Won 1st place among 76 competitors from 21 universities at the National University Programming Competition,Algeria. Built a multiplatform solution to transform student projects into startups, using Flutter, Next.js, and Express.js" , 
+    "category" : ["flutter" , "express" , "next"]
+    } , 
+    {
+        "title" : "Codaverse" , 
+        "description":"won 1st place in gdg hachathon , Developed a 2D game simulating a hackathon experience, using Flutter and Firebase for real-time features." , 
+        "category" : ["flutter" , "firebase" , "flame" ,"realtime database"]
+    } , 
+    {
         "title":"Highlight_It",
         "description":"app that uses Ai to detect a text withen an image to help save quotes from multiple book in an orinised way , using flutter and sql , and riverpod as state managment" , 
         "category":["flutter" , "sqlite" , "machine learning" , "riverpod"] , 
@@ -31,7 +41,7 @@
     } , 
     {
         "title":"kafil",
-        "description":"this is an app requested from the associaltion kail el yatim , for helping the administration" , 
+        "description":"this is an app requested from the associaltion kafil el yatim , for helping the administration" , 
         "category":["flutter" , "riverpod"  ] , 
         "link" : "https://github.com/Rafik-Bendjema/kafil2"
     } 
