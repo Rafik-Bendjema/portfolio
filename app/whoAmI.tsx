@@ -42,7 +42,7 @@ export default function WhoAmI() {
             initial={{ scale: 4 }}
             whileInView={{ scale: 1 }}
             transition={{ duration: 2 }}
-            className="absolute top-[38%] left-[35%] transform -translate-x-1/2 -translate-y-1/2 w-3 h-3 md:w-4 md:h-4 bg-red-500 rounded-full border-2 border-white"
+            className="absolute top-[32%] left-[35%] transform -translate-x-1/2 -translate-y-1/2 w-3 h-3 md:w-4 md:h-4 bg-red-500 rounded-full border-2 border-white"
           />
         </div>
       </div>

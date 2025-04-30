@@ -25,9 +25,11 @@ export default function Projects() {
                 <div key={index} className="m-1 bg-white text-blue-900 px-3 py-1 text-xs md:text-sm rounded-3xl">{cat}</div>
               ))}
             </div>
-            <div className="text-lg md:text-xl mt-4">
-              <a href={project.link} className="underline">source code {"->"}</a>
-            </div>
+            {project.link && (
+              <div className="text-lg md:text-xl mt-4">
+                <a href={project.link} className="underline">source code {"->"}</a>
+              </div>
+            )}
           </motion.div>
         ))}
       </div>
