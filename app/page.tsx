@@ -4,7 +4,7 @@ import MainBody from './mainBody';
 import Projects from './projects';
 import WhoAmI from './whoAmI';
 import Copyright from './copyright';
-import Skills from './components/Skills';
+import Skills from './Skills';  // Updated import path
 
 export default function Home() {
   return (
