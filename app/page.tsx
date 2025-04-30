@@ -4,7 +4,7 @@ import MainBody from './mainBody';
 import Projects from './projects';
 import WhoAmI from './whoAmI';
 import Copyright from './copyright';
-import Skills from './components/Skills';  // Update this line to include file extension
+import Skills from '@/app/components/Skills';
 
 export default function Home() {
   return (
